@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.clearfix {
+	clear:both;
+	*zoom: 1;
+}
+
+.wrapper {
+	width: 850px;
+	height: 850px;
+	border: 10px solid #008B8B;
+	margin: 20px auto;
+}
+
+.chess-board {
+	width: 810px;
+	height: 810px;
+	border: 10px solid black;
+	margin: 10px auto;
+}
+
+.box {
+	width: 12.5%;
+	min-height: 12.5%;
+	float: left;
+}
+
+.box1,
+.box3,
+.box5,
+.box7,
+.box10,
+.box12,
+.box14,
+.box16,
+.box17,
+.box19,
+.box21,
+.box23,
+.box26,
+.box28,
+.box30,
+.box32,
+.box33,
+.box35,
+.box37,
+.box39,
+.box42,
+.box44,
+.box46,
+.box48,
+.box49,
+.box51,
+.box53,
+.box55,
+.box58,
+.box60,
+.box62,
+.box64 {
+	background-color: black;
+}
+
+.checker-blue {
+	width: 80px;
+	height: 80px;
+	background-color: #008B8B;
+	margin: 9px auto;
+	border-radius: 50%;
+}
+
+.checker-red {
+	width: 80px;
+	height: 80px;
+	background-color: #8B0000;
+	margin: 9px auto;
+	border-radius: 50%;
+}
